@@ -20,6 +20,7 @@ const digits = [];
             }
         }
 
+        // example counter
         let number = 9;
         let countingDown = setInterval(function () {
             if (number >= 0) {
@@ -28,7 +29,5 @@ const digits = [];
             }
             else {
                 clearInterval(countingDown);
-                digit.style.display = 'none';
-                document.body.innerHTML = '<h1>Zaczynamy!!!</h1>';
             }
         }, 1000)
